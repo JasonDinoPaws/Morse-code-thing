@@ -1,11 +1,11 @@
-### Materals List:
-1 Rasberry pi
-1 BreadBoard
-1 Passive Buzzer
-1 Button Module
-6 M-F Wires
+### Materals List
+1 Rasberry pi,
+1 BreadBoard,
+1 Passive Buzzer,
+1 Button Module,
+6 M-F Wires,
 
-
+--------------------------------------------------------
 ### Explanation
 First you have to set up your Breadboard GPIO pings by
 
