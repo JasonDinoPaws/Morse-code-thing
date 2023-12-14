@@ -1,7 +1,7 @@
 ### Materals List
 1 Rasberry pi,
 1 BreadBoard,
-1 Passive Buzzer,
+1 Active Buzzer,
 1 Button Module,
 6 M-F Wires,
 
