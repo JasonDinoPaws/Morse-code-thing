@@ -12,8 +12,5 @@ Buzzer.start(0)
 Cycle = 0
 
 while True:
-  if GPIO.input(Button) != 0: Cycle = 1
-  else: Cycle = 0
-
-Buzzer.ChangeDudyCycle(Cycle)
-    
+  if GPIO.input(Button) != 0: Buzzer.start(1)
+  else: Cycle = Buzzer.stop()
