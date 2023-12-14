@@ -8,9 +8,7 @@ GPIO.setwarnings(False)
 Buzzer = GPIO.WMB(BuzPin,100)
 GPIO.setup(Button,GPIO.IN)
 
-Buzzer.start(0)
-Cycle = 0
 
 while True:
   if GPIO.input(Button) != 0: Buzzer.start(1)
-  else: Cycle = Buzzer.stop()
+  else: Buzzer.stop()
